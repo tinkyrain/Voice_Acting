@@ -23,8 +23,8 @@ section{
 }
 
 #text{
-  width: 800px;
-  height: 400px;
+  width: 900px;
+  height: 300px;
 
   border: 2px solid black;
   border-radius: 20px;
@@ -59,4 +59,39 @@ section{
   color: black;
 
   transition: all 0.6s ease;
+}
+
+/*ADAPTIVE*/
+
+@media (max-width: 930px) {
+  #text{
+    width: 700px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 720px) {
+  #text{
+    width: 500px;
+    height: 200px;
+  }
+
+  #btn{
+    width: 150px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 510px) {
+  #text{
+    width: 300px;
+    height: 200px;
+  }
+
+  #btn{
+    width: 150px;
+    height: 100px;
+
+    font-size: 15px;
+  }
 }
